@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+<title>PROJECT</title>
+
+<script src="foody.js"></script>
+<body style="background-color:pink;">
+<H1 style="color:white;text-align:center;">FOOD ORDER FORM</H1>
+<img src="foody2.jpeg"/>
+<p style="font-size:30px;"><b>IT's too late............</b><br>
+Fill in the order form and receive different <strong>foods</strong> at your doorstep....
+Have a <b>yummy and delicious food...</b>Hurry up!!!! ....<br>
+I have chosen this food order form because the food is the most essential thing without which 
+a human cannot survive...Thats the reason....</p>
+<form mehtod="post" action="#" >
+<table>
+
+<tr>
+<td>
+<label for="fname">Enter your Firstname:</label>
+</td>
+<td>
+<input type="text" id="fname" onblur="myfunction()" required placeholder="Enter your firstname">
+</td>
+</tr>
+<tr>
+<td>
+<label for="lname">Enter your Lastname:</label>
+</td>
+<td>
+<input type="text" id="lname" name="lastname" placeholder="Enter your lastname">
+</td>
+</tr>
+
+<tr>
+<td>
+<label for="phone">Enter your phone number:</label>
+</td>
+<td>
+<input type="tel" id="phoneno" name:"phoneno" placeholder="Enter phone number">
+</td>
+</tr>
+
+<tr>
+<td>
+<label for="address">Enter your address</label>
+</td>
+<td>
+<input type="text" id="address" name="address" placeholder="Enter the address">
+</td>
+</tr>
+
+<tr>
+<td>
+<label for="city">Enter City:</label>
+</td>
+<td>
+<input type="text" id="city" name="City" placeholder="Enter the city">
+</td>
+</tr>
+
+<tr>
+<td>
+<label for="State">Enter State:</label>
+</td>
+<td>
+<select id="State">
+<option disbaled selected>-----choose the state-----</option>
+<option>TamilNadu</option>
+<option>kolkata</option>
+<option>Kerala</option>
+</select>
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+<label for="quantity">No of food items</label>
+</td>
+<td>
+<input type="number" id="quantity" name:"quantity">
+</td>
+</tr>
+
+
+<tr>
+<td>
+<button onclick="alert('Helo \n Thanks for placing your order')">PLACE ORDER</button>
+
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
